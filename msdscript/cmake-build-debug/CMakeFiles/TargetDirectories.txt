@@ -1,0 +1,3 @@
+/Users/zidongfan/myGithubRepo/CS6015_MSDScript/msdscript/cmake-build-debug/CMakeFiles/msdscript.dir
+/Users/zidongfan/myGithubRepo/CS6015_MSDScript/msdscript/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zidongfan/myGithubRepo/CS6015_MSDScript/msdscript/cmake-build-debug/CMakeFiles/rebuild_cache.dir

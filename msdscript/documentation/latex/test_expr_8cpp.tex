@@ -1,0 +1,58 @@
+\hypertarget{test_expr_8cpp}{}\doxysection{/\+Users/zidongfan/my\+Github\+Repo/\+CS6015\+\_\+2023/assignment/test\+Expr.cpp File Reference}
+\label{test_expr_8cpp}\index{/Users/zidongfan/myGithubRepo/CS6015\_2023/assignment/testExpr.cpp@{/Users/zidongfan/myGithubRepo/CS6015\_2023/assignment/testExpr.cpp}}
+{\ttfamily \#include \char`\"{}expr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}catch.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{test_expr_8cpp_a51318734e7f659078271c1a33dc8e04c}{TEST\+\_\+\+CASE}} (\char`\"{}equals\char`\"{})
+\item 
+\mbox{\hyperlink{test_expr_8cpp_acb7942a7d9644cf6097833308959dae8}{TEST\+\_\+\+CASE}} (\char`\"{}interp\char`\"{})
+\item 
+\mbox{\hyperlink{test_expr_8cpp_a00cb9c62fb09689c7d6d84c110f3a543}{TEST\+\_\+\+CASE}} (\char`\"{}has\+\_\+variable\char`\"{})
+\item 
+\mbox{\hyperlink{test_expr_8cpp_a54ef2a59099b65dc8ff23503d000dd85}{TEST\+\_\+\+CASE}} (\char`\"{}subst\char`\"{})
+\item 
+\mbox{\hyperlink{test_expr_8cpp_ac7c1d844bfad538cdfd03d2fda09e8ac}{TEST\+\_\+\+CASE}} (\char`\"{}print\char`\"{})
+\item 
+\mbox{\hyperlink{test_expr_8cpp_aa9ac4349fd5fea94f0cbb1ea043da7d1}{TEST\+\_\+\+CASE}} (\char`\"{}pretty\+\_\+print\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{test_expr_8cpp_a51318734e7f659078271c1a33dc8e04c}\label{test_expr_8cpp_a51318734e7f659078271c1a33dc8e04c}} 
+\index{testExpr.cpp@{testExpr.cpp}!TEST\_CASE@{TEST\_CASE}}
+\index{TEST\_CASE@{TEST\_CASE}!testExpr.cpp@{testExpr.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_CASE()}{TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily TEST\+\_\+\+CASE (\begin{DoxyParamCaption}\item[{\char`\"{}equals\char`\"{}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{test_expr_8cpp_a00cb9c62fb09689c7d6d84c110f3a543}\label{test_expr_8cpp_a00cb9c62fb09689c7d6d84c110f3a543}} 
+\index{testExpr.cpp@{testExpr.cpp}!TEST\_CASE@{TEST\_CASE}}
+\index{TEST\_CASE@{TEST\_CASE}!testExpr.cpp@{testExpr.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_CASE()}{TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily TEST\+\_\+\+CASE (\begin{DoxyParamCaption}\item[{\char`\"{}has\+\_\+variable\char`\"{}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{test_expr_8cpp_acb7942a7d9644cf6097833308959dae8}\label{test_expr_8cpp_acb7942a7d9644cf6097833308959dae8}} 
+\index{testExpr.cpp@{testExpr.cpp}!TEST\_CASE@{TEST\_CASE}}
+\index{TEST\_CASE@{TEST\_CASE}!testExpr.cpp@{testExpr.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_CASE()}{TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily TEST\+\_\+\+CASE (\begin{DoxyParamCaption}\item[{\char`\"{}interp\char`\"{}}]{ }\end{DoxyParamCaption})}
+
+interp Test Examples\+: CHECK( (new \mbox{\hyperlink{class_mult_expr}{Mult\+Expr}}(new \mbox{\hyperlink{class_num_expr}{Num\+Expr(3)}}, new \mbox{\hyperlink{class_num_expr}{Num\+Expr(2)}})) -\/\texorpdfstring{$>$}{>}interp()==6 ); CHECK( (new \mbox{\hyperlink{class_add_expr}{Add\+Expr}}(new \mbox{\hyperlink{class_add_expr}{Add\+Expr}}(new \mbox{\hyperlink{class_num_expr}{Num\+Expr(10)}}, new \mbox{\hyperlink{class_num_expr}{Num\+Expr(15)}}),new \mbox{\hyperlink{class_add_expr}{Add\+Expr}}(new \mbox{\hyperlink{class_num_expr}{Num\+Expr(20)}},new \mbox{\hyperlink{class_num_expr}{Num\+Expr(20)}}))) -\/\texorpdfstring{$>$}{>}interp()==65); \mbox{\Hypertarget{test_expr_8cpp_aa9ac4349fd5fea94f0cbb1ea043da7d1}\label{test_expr_8cpp_aa9ac4349fd5fea94f0cbb1ea043da7d1}} 
+\index{testExpr.cpp@{testExpr.cpp}!TEST\_CASE@{TEST\_CASE}}
+\index{TEST\_CASE@{TEST\_CASE}!testExpr.cpp@{testExpr.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_CASE()}{TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily TEST\+\_\+\+CASE (\begin{DoxyParamCaption}\item[{\char`\"{}pretty\+\_\+print\char`\"{}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{test_expr_8cpp_ac7c1d844bfad538cdfd03d2fda09e8ac}\label{test_expr_8cpp_ac7c1d844bfad538cdfd03d2fda09e8ac}} 
+\index{testExpr.cpp@{testExpr.cpp}!TEST\_CASE@{TEST\_CASE}}
+\index{TEST\_CASE@{TEST\_CASE}!testExpr.cpp@{testExpr.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_CASE()}{TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily TEST\+\_\+\+CASE (\begin{DoxyParamCaption}\item[{\char`\"{}print\char`\"{}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{test_expr_8cpp_a54ef2a59099b65dc8ff23503d000dd85}\label{test_expr_8cpp_a54ef2a59099b65dc8ff23503d000dd85}} 
+\index{testExpr.cpp@{testExpr.cpp}!TEST\_CASE@{TEST\_CASE}}
+\index{TEST\_CASE@{TEST\_CASE}!testExpr.cpp@{testExpr.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_CASE()}{TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily TEST\+\_\+\+CASE (\begin{DoxyParamCaption}\item[{\char`\"{}subst\char`\"{}}]{ }\end{DoxyParamCaption})}
+
