@@ -1,0 +1,52 @@
+textarea {
+    resize: none;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+div {
+
+    background: blanchedalmond;
+    display: inline-table;
+    border: 2px solid darkred;
+
+}
+
+
+#user {
+    font-size: larger;
+    padding: 10px;
+    height: 500px;
+    width: 30%;
+}
+
+#msg {
+    font-size: larger;
+    padding: 10px;
+    height: 500px;
+    width: 60%;
+}
+
+.divTitle{
+    font-size: larger;
+    color: brown;
+    font-weight: bold;
+}
